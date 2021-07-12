@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#651e3e"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/firstName"
+        style="@style/editText"
+        android:hint="First Name"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="150dp"/>
+    <EditText
+        android:id="@+id/lastName"
+        style="@style/editText"
+        android:hint="Last Name"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="230dp"/>
+    <EditText
+        android:id="@+id/emailAddress"
+        style="@style/editText"
+        android:hint="EmailAddress"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="310dp"/>
+    <EditText
+        android:id="@+id/phnNumber"
+        style="@style/editText"
+        android:hint="PhoneNumber"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="390dp"/>
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        android:text="Proceed to next screen"
+        android:textColor="@color/white"
+        android:background="#051e3e"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="460dp"/>
+
+
+
+
+</RelativeLayout>

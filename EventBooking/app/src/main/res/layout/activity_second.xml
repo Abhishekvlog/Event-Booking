@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0e9aa7"
+    tools:context=".SecondActivity">
+    <TextView
+        android:id="@+id/recfirstname"
+        style="@style/editText"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:id="@+id/reclastname"
+        style="@style/editText"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="160dp"/>
+    <TextView
+        android:id="@+id/recemail"
+        style="@style/editText"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="220dp"/>
+    <TextView
+        android:id="@+id/recPhnNo"
+        style="@style/editText"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="280dp"/>
+    <EditText
+        android:id="@+id/NoOfSeats"
+        style="@style/editText"
+        android:hint="NoOfSeats"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="340dp"/>
+    <EditText
+        android:id="@+id/DateOfShow"
+        style="@style/editText"
+        android:hint="DateOfShow "
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="400dp"/>
+    <Button
+        android:id="@+id/btnPreview"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        android:text=" preview all the details"
+        android:textColor="@color/white"
+        android:background="#051e3e"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="470dp"/>
+
+
+
+
+
+</RelativeLayout>
